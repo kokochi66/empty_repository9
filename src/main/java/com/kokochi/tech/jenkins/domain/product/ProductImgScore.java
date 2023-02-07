@@ -20,6 +20,6 @@ public class ProductImgScore  {
     @Id
     private Long productImgId;
     @Id
-    private String userId;
+    private Long userId;
     private int score;
 }

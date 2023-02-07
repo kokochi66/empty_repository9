@@ -36,9 +36,9 @@ public class ProductImg  {
     @CreatedDate
     private LocalDateTime regDate;
 
-    private String uploadUser;
+    private Long uploadUser;
 
-    public static ProductImg createProductImg(Product product, ProductImgType productImgType, String productImgTitle, String productImgUrl, String uploadUser) {
+    public static ProductImg createProductImg(Product product, ProductImgType productImgType, String productImgTitle, String productImgUrl, Long uploadUser) {
         return ProductImg.builder()
                 .product(product)
                 .productImgType(productImgType)

@@ -11,5 +11,4 @@ import java.io.Serializable;
 public class ProductImgScorePK implements Serializable {
     private Long productImgId;
     private Long userId;
-
 }
